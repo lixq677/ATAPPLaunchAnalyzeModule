@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* AppDelegate.m */; };
+		6003F5A7195388D20070C39A /* EXATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* EXATViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		B0120E831EE4F6E900661D50 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0120E7E1EE4F6E900661D50 /* Default-568h@2x.png */; };
+		B0120E841EE4F6E900661D50 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0120E7F1EE4F6E900661D50 /* Default-667h@2x.png */; };
+		B0120E851EE4F6E900661D50 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0120E801EE4F6E900661D50 /* Default-736h@3x.png */; };
+		B0120E861EE4F6E900661D50 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B0120E811EE4F6E900661D50 /* Default.png */; };
+		B0120E871EE4F6E900661D50 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0120E821EE4F6E900661D50 /* Default@2x.png */; };
+		B0120E951EE6527600661D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0120E941EE6527600661D50 /* Main.storyboard */; };
+		C73283EF276771DE00A20FE0 /* Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73283DD27676F6700A20FE0 /* Test.framework */; };
+		C73283F0276771DE00A20FE0 /* Test.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C73283DD27676F6700A20FE0 /* Test.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEDA49DEA768CA93CCD3C6DE /* Pods_ATAPPLaunchAnalyzeModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A28C1EB229C5EA44A591DE /* Pods_ATAPPLaunchAnalyzeModule_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C73283DC27676F6700A20FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C73283D827676F6600A20FE0 /* Test.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C73283CC27676F5300A20FE0;
+			remoteInfo = Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0CAD7E5E1EF118600080E3BD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CAD7E8A1EF118BF0080E3BD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73283F1276771DE00A20FE0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C73283F0276771DE00A20FE0 /* Test.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0CAD7E4E1EF1185F0080E3BD /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		0CAD7EEA1EF11B560080E3BD /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		0CAD7EEC1EF11B560080E3BD /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		0CAD7F1B1EF234650080E3BD /* JD4iPhone_adhoc.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JD4iPhone_adhoc.xcconfig; sourceTree = "<group>"; };
+		0CAD7F1C1EF234650080E3BD /* JDMobileStickerPackExtension_adhoc.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDMobileStickerPackExtension_adhoc.xcconfig; sourceTree = "<group>"; };
+		0CAD7F1D1EF234650080E3BD /* JDPushContentExtension_adhoc.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDPushContentExtension_adhoc.xcconfig; sourceTree = "<group>"; };
+		0CAD7F1E1EF234650080E3BD /* JDPushServiceExtension_adhoc.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDPushServiceExtension_adhoc.xcconfig; sourceTree = "<group>"; };
+		0CAD7F1F1EF234650080E3BD /* JDTodayExtension_adhoc.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDTodayExtension_adhoc.xcconfig; sourceTree = "<group>"; };
+		0CAD7F201EF234650080E3BD /* JDWatch_adhoc.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDWatch_adhoc.xcconfig; sourceTree = "<group>"; };
+		0CAD7F211EF234650080E3BD /* JDWatchExtension_adhoc.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDWatchExtension_adhoc.xcconfig; sourceTree = "<group>"; };
+		0CAD7F3E1EF234650080E3BD /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		0CAD7F401EF234650080E3BD /* JD4iPhone_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JD4iPhone_debug.xcconfig; sourceTree = "<group>"; };
+		0CAD7F411EF234650080E3BD /* JDMobileStickerPackExtension_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDMobileStickerPackExtension_debug.xcconfig; sourceTree = "<group>"; };
+		0CAD7F421EF234650080E3BD /* JDPushContentExtension_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDPushContentExtension_debug.xcconfig; sourceTree = "<group>"; };
+		0CAD7F431EF234650080E3BD /* JDPushServiceExtension_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDPushServiceExtension_debug.xcconfig; sourceTree = "<group>"; };
+		0CAD7F441EF234650080E3BD /* JDTodayExtension_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDTodayExtension_debug.xcconfig; sourceTree = "<group>"; };
+		0CAD7F451EF234650080E3BD /* JDWatch_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDWatch_debug.xcconfig; sourceTree = "<group>"; };
+		0CAD7F461EF234650080E3BD /* JDWatchExtension_debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDWatchExtension_debug.xcconfig; sourceTree = "<group>"; };
+		0CAD7F471EF234650080E3BD /* Profile_JD.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Profile_JD.xcconfig; sourceTree = "<group>"; };
+		0CAD7F481EF234650080E3BD /* Profile_SK.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Profile_SK.xcconfig; sourceTree = "<group>"; };
+		0CAD7F491EF234650080E3BD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0CAD7F4B1EF234650080E3BD /* JD4iPhone_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JD4iPhone_release.xcconfig; sourceTree = "<group>"; };
+		0CAD7F4C1EF234650080E3BD /* JDMobileStickerPackExtension_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDMobileStickerPackExtension_release.xcconfig; sourceTree = "<group>"; };
+		0CAD7F4D1EF234650080E3BD /* JDPushContentExtension_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDPushContentExtension_release.xcconfig; sourceTree = "<group>"; };
+		0CAD7F4E1EF234650080E3BD /* JDPushServiceExtensionn_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDPushServiceExtensionn_release.xcconfig; sourceTree = "<group>"; };
+		0CAD7F4F1EF234650080E3BD /* JDTodayExtension_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDTodayExtension_release.xcconfig; sourceTree = "<group>"; };
+		0CAD7F501EF234650080E3BD /* JDWatch_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDWatch_release.xcconfig; sourceTree = "<group>"; };
+		0CAD7F511EF234650080E3BD /* JDWatchExtension_release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = JDWatchExtension_release.xcconfig; sourceTree = "<group>"; };
+		1DDD8190A9CAD3A6EC1D426D /* Pods-JDWatch.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDWatch.adhoc.xcconfig"; path = "Target Support Files/Pods-JDWatch/Pods-JDWatch.adhoc.xcconfig"; sourceTree = "<group>"; };
+		20101C45396868BDFE7E98DF /* Pods-ATAPPLaunchAnalyzeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATAPPLaunchAnalyzeModule_Example.release.xcconfig"; path = "Target Support Files/Pods-ATAPPLaunchAnalyzeModule_Example/Pods-ATAPPLaunchAnalyzeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		22F590D7E3DAD68F77D42607 /* ATAPPLaunchAnalyzeModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ATAPPLaunchAnalyzeModule.podspec; path = ../ATAPPLaunchAnalyzeModule.podspec; sourceTree = "<group>"; };
+		251B07ECB1CE67B196B99E7D /* Pods_JDWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251B188D86546867DCFDF228 /* Pods-JDTodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDTodayExtension.release.xcconfig"; path = "Target Support Files/Pods-JDTodayExtension/Pods-JDTodayExtension.release.xcconfig"; sourceTree = "<group>"; };
+		3BFFC67FF8A0A0D3544D00BB /* Pods-JDPushContentExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDPushContentExtension.debug.xcconfig"; path = "Target Support Files/Pods-JDPushContentExtension/Pods-JDPushContentExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		470754C69EEE9E30C13471D5 /* Pods-JDTodayExtension.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDTodayExtension.adhoc.xcconfig"; path = "Target Support Files/Pods-JDTodayExtension/Pods-JDTodayExtension.adhoc.xcconfig"; sourceTree = "<group>"; };
+		4723D8346F933D5A56883FBA /* Pods-StickerPackExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickerPackExtension.release.xcconfig"; path = "Target Support Files/Pods-StickerPackExtension/Pods-StickerPackExtension.release.xcconfig"; sourceTree = "<group>"; };
+		54C362A7F579E5DCD4B9A597 /* Pods-JDPushContentExtension.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDPushContentExtension.adhoc.xcconfig"; path = "Target Support Files/Pods-JDPushContentExtension/Pods-JDPushContentExtension.adhoc.xcconfig"; sourceTree = "<group>"; };
+		551B00982EAB60F8BFF0E911 /* Pods-JDPushServiceExtension.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDPushServiceExtension.adhoc.xcconfig"; path = "Target Support Files/Pods-JDPushServiceExtension/Pods-JDPushServiceExtension.adhoc.xcconfig"; sourceTree = "<group>"; };
+		5B45B55C08A6C13703A7734E /* Pods-JDPushServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDPushServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-JDPushServiceExtension/Pods-JDPushServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* ATAPPLaunchAnalyzeModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATAPPLaunchAnalyzeModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* ATAPPLaunchAnalyzeModule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ATAPPLaunchAnalyzeModule-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* ATAPPLaunchAnalyzeModule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ATAPPLaunchAnalyzeModule-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* EXATViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXATViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* EXATViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXATViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		60A83492AF92E593ED3B2ABF /* Pods-JDWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDWatch.debug.xcconfig"; path = "Target Support Files/Pods-JDWatch/Pods-JDWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		65640DE5BD9BD863ED364A50 /* Pods-JDPushContentExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDPushContentExtension.release.xcconfig"; path = "Target Support Files/Pods-JDPushContentExtension/Pods-JDPushContentExtension.release.xcconfig"; sourceTree = "<group>"; };
+		677913A594717E9D6220202E /* Pods-JDWatchExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDWatchExtension.release.xcconfig"; path = "Target Support Files/Pods-JDWatchExtension/Pods-JDWatchExtension.release.xcconfig"; sourceTree = "<group>"; };
+		68BA6FA07BD2A2C3D81512A9 /* Pods-ATAPPLaunchAnalyzeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATAPPLaunchAnalyzeModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-ATAPPLaunchAnalyzeModule_Example/Pods-ATAPPLaunchAnalyzeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		80E3BFF7C7D8F58350CBE334 /* Pods-JDWatchExtension.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDWatchExtension.adhoc.xcconfig"; path = "Target Support Files/Pods-JDWatchExtension/Pods-JDWatchExtension.adhoc.xcconfig"; sourceTree = "<group>"; };
+		8DEF5B51385D4A5F284E07AE /* Pods_JDTodayExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDTodayExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD71D8BE526C761FD3C570A /* Pods-JDWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDWatch.release.xcconfig"; path = "Target Support Files/Pods-JDWatch/Pods-JDWatch.release.xcconfig"; sourceTree = "<group>"; };
+		9C123E4CD9D2AA08013907AA /* Pods_JDWatchExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDWatchExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDE6E041111622DCA2ECE51 /* Pods_JDPushServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDPushServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0120E7E1EE4F6E900661D50 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B0120E7F1EE4F6E900661D50 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		B0120E801EE4F6E900661D50 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		B0120E811EE4F6E900661D50 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B0120E821EE4F6E900661D50 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B0120E941EE6527600661D50 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B77143C329E7B4110661192B /* Pods_JDPushContentExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDPushContentExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C179F098FB87E3997984F0A1 /* Pods-StickerPackExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickerPackExtension.debug.xcconfig"; path = "Target Support Files/Pods-StickerPackExtension/Pods-StickerPackExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		C73283D827676F6600A20FE0 /* Test.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Test.xcodeproj; path = ../Test/Test.xcodeproj; sourceTree = "<group>"; };
+		CCB5DAD7EEC3C6969D0B8E0E /* Pods-JDTodayExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDTodayExtension.debug.xcconfig"; path = "Target Support Files/Pods-JDTodayExtension/Pods-JDTodayExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		CCC838167846801259EC9385 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CDC12D7FC8720EBAF27139A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D034F7035C27340DAD5DEEA4 /* Pods-ATAPPLaunchAnalyzeModule_Example.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATAPPLaunchAnalyzeModule_Example.adhoc.xcconfig"; path = "Target Support Files/Pods-ATAPPLaunchAnalyzeModule_Example/Pods-ATAPPLaunchAnalyzeModule_Example.adhoc.xcconfig"; sourceTree = "<group>"; };
+		D8A28C1EB229C5EA44A591DE /* Pods_ATAPPLaunchAnalyzeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATAPPLaunchAnalyzeModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8AD1D6FB789BE6B811F07F /* Pods_StickerPackExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StickerPackExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E33F5742C75DC9DE74110E /* Pods-StickerPackExtension.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StickerPackExtension.adhoc.xcconfig"; path = "Target Support Files/Pods-StickerPackExtension/Pods-StickerPackExtension.adhoc.xcconfig"; sourceTree = "<group>"; };
+		FCCCBD73BF81EC124D1395B8 /* Pods-JDWatchExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDWatchExtension.debug.xcconfig"; path = "Target Support Files/Pods-JDWatchExtension/Pods-JDWatchExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA4E46D7022DFEF027E4CA7 /* Pods-JDPushServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDPushServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-JDPushServiceExtension/Pods-JDPushServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				C73283EF276771DE00A20FE0 /* Test.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				CEDA49DEA768CA93CCD3C6DE /* Pods_ATAPPLaunchAnalyzeModule_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CAD7F191EF234650080E3BD /* JDConfigurations */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD7F491EF234650080E3BD /* README.md */,
+				0CAD7F471EF234650080E3BD /* Profile_JD.xcconfig */,
+				0CAD7F481EF234650080E3BD /* Profile_SK.xcconfig */,
+				0CAD7F3E1EF234650080E3BD /* Common.xcconfig */,
+				0CAD7F1A1EF234650080E3BD /* adhoc */,
+				0CAD7F3F1EF234650080E3BD /* debug */,
+				0CAD7F4A1EF234650080E3BD /* release */,
+			);
+			name = JDConfigurations;
+			path = "~/.iBiu/iBiuClient/apps/IBKFXHJingxiTest/JDConfigurations";
+			sourceTree = "<group>";
+		};
+		0CAD7F1A1EF234650080E3BD /* adhoc */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD7F1B1EF234650080E3BD /* JD4iPhone_adhoc.xcconfig */,
+				0CAD7F1C1EF234650080E3BD /* JDMobileStickerPackExtension_adhoc.xcconfig */,
+				0CAD7F1D1EF234650080E3BD /* JDPushContentExtension_adhoc.xcconfig */,
+				0CAD7F1E1EF234650080E3BD /* JDPushServiceExtension_adhoc.xcconfig */,
+				0CAD7F1F1EF234650080E3BD /* JDTodayExtension_adhoc.xcconfig */,
+				0CAD7F201EF234650080E3BD /* JDWatch_adhoc.xcconfig */,
+				0CAD7F211EF234650080E3BD /* JDWatchExtension_adhoc.xcconfig */,
+			);
+			path = adhoc;
+			sourceTree = "<group>";
+		};
+		0CAD7F3F1EF234650080E3BD /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD7F401EF234650080E3BD /* JD4iPhone_debug.xcconfig */,
+				0CAD7F411EF234650080E3BD /* JDMobileStickerPackExtension_debug.xcconfig */,
+				0CAD7F421EF234650080E3BD /* JDPushContentExtension_debug.xcconfig */,
+				0CAD7F431EF234650080E3BD /* JDPushServiceExtension_debug.xcconfig */,
+				0CAD7F441EF234650080E3BD /* JDTodayExtension_debug.xcconfig */,
+				0CAD7F451EF234650080E3BD /* JDWatch_debug.xcconfig */,
+				0CAD7F461EF234650080E3BD /* JDWatchExtension_debug.xcconfig */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		0CAD7F4A1EF234650080E3BD /* release */ = {
+			isa = PBXGroup;
+			children = (
+				0CAD7F4B1EF234650080E3BD /* JD4iPhone_release.xcconfig */,
+				0CAD7F4C1EF234650080E3BD /* JDMobileStickerPackExtension_release.xcconfig */,
+				0CAD7F4D1EF234650080E3BD /* JDPushContentExtension_release.xcconfig */,
+				0CAD7F4E1EF234650080E3BD /* JDPushServiceExtensionn_release.xcconfig */,
+				0CAD7F4F1EF234650080E3BD /* JDTodayExtension_release.xcconfig */,
+				0CAD7F501EF234650080E3BD /* JDWatch_release.xcconfig */,
+				0CAD7F511EF234650080E3BD /* JDWatchExtension_release.xcconfig */,
+			);
+			path = release;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				C73283D827676F6600A20FE0 /* Test.xcodeproj */,
+				0CAD7F191EF234650080E3BD /* JDConfigurations */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for ATAPPLaunchAnalyzeModule */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				AA2C7C5DB8D6BC4FA00315CA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* ATAPPLaunchAnalyzeModule_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				0CAD7E4E1EF1185F0080E3BD /* NotificationCenter.framework */,
+				0CAD7EEA1EF11B560080E3BD /* UserNotifications.framework */,
+				0CAD7EEC1EF11B560080E3BD /* UserNotificationsUI.framework */,
+				D8A28C1EB229C5EA44A591DE /* Pods_ATAPPLaunchAnalyzeModule_Example.framework */,
+				B77143C329E7B4110661192B /* Pods_JDPushContentExtension.framework */,
+				ADDE6E041111622DCA2ECE51 /* Pods_JDPushServiceExtension.framework */,
+				8DEF5B51385D4A5F284E07AE /* Pods_JDTodayExtension.framework */,
+				251B07ECB1CE67B196B99E7D /* Pods_JDWatch.framework */,
+				9C123E4CD9D2AA08013907AA /* Pods_JDWatchExtension.framework */,
+				DA8AD1D6FB789BE6B811F07F /* Pods_StickerPackExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for ATAPPLaunchAnalyzeModule */ = {
+			isa = PBXGroup;
+			children = (
+				B0120E7C1EE4F6E900661D50 /* Resource */,
+				6003F59C195388D20070C39A /* AppDelegate.h */,
+				6003F59D195388D20070C39A /* AppDelegate.m */,
+				6003F5A5195388D20070C39A /* EXATViewController.h */,
+				6003F5A6195388D20070C39A /* EXATViewController.m */,
+				B0120E941EE6527600661D50 /* Main.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for ATAPPLaunchAnalyzeModule";
+			path = ATAPPLaunchAnalyzeModule;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* ATAPPLaunchAnalyzeModule-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* ATAPPLaunchAnalyzeModule-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				22F590D7E3DAD68F77D42607 /* ATAPPLaunchAnalyzeModule.podspec */,
+				CCC838167846801259EC9385 /* README.md */,
+				CDC12D7FC8720EBAF27139A1 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		AA2C7C5DB8D6BC4FA00315CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68BA6FA07BD2A2C3D81512A9 /* Pods-ATAPPLaunchAnalyzeModule_Example.debug.xcconfig */,
+				20101C45396868BDFE7E98DF /* Pods-ATAPPLaunchAnalyzeModule_Example.release.xcconfig */,
+				D034F7035C27340DAD5DEEA4 /* Pods-ATAPPLaunchAnalyzeModule_Example.adhoc.xcconfig */,
+				3BFFC67FF8A0A0D3544D00BB /* Pods-JDPushContentExtension.debug.xcconfig */,
+				65640DE5BD9BD863ED364A50 /* Pods-JDPushContentExtension.release.xcconfig */,
+				54C362A7F579E5DCD4B9A597 /* Pods-JDPushContentExtension.adhoc.xcconfig */,
+				5B45B55C08A6C13703A7734E /* Pods-JDPushServiceExtension.debug.xcconfig */,
+				FFA4E46D7022DFEF027E4CA7 /* Pods-JDPushServiceExtension.release.xcconfig */,
+				551B00982EAB60F8BFF0E911 /* Pods-JDPushServiceExtension.adhoc.xcconfig */,
+				CCB5DAD7EEC3C6969D0B8E0E /* Pods-JDTodayExtension.debug.xcconfig */,
+				251B188D86546867DCFDF228 /* Pods-JDTodayExtension.release.xcconfig */,
+				470754C69EEE9E30C13471D5 /* Pods-JDTodayExtension.adhoc.xcconfig */,
+				60A83492AF92E593ED3B2ABF /* Pods-JDWatch.debug.xcconfig */,
+				9AD71D8BE526C761FD3C570A /* Pods-JDWatch.release.xcconfig */,
+				1DDD8190A9CAD3A6EC1D426D /* Pods-JDWatch.adhoc.xcconfig */,
+				FCCCBD73BF81EC124D1395B8 /* Pods-JDWatchExtension.debug.xcconfig */,
+				677913A594717E9D6220202E /* Pods-JDWatchExtension.release.xcconfig */,
+				80E3BFF7C7D8F58350CBE334 /* Pods-JDWatchExtension.adhoc.xcconfig */,
+				C179F098FB87E3997984F0A1 /* Pods-StickerPackExtension.debug.xcconfig */,
+				4723D8346F933D5A56883FBA /* Pods-StickerPackExtension.release.xcconfig */,
+				E7E33F5742C75DC9DE74110E /* Pods-StickerPackExtension.adhoc.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0120E7C1EE4F6E900661D50 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B0120E7D1EE4F6E900661D50 /* default */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B0120E7D1EE4F6E900661D50 /* default */ = {
+			isa = PBXGroup;
+			children = (
+				B0120E7E1EE4F6E900661D50 /* Default-568h@2x.png */,
+				B0120E7F1EE4F6E900661D50 /* Default-667h@2x.png */,
+				B0120E801EE4F6E900661D50 /* Default-736h@3x.png */,
+				B0120E811EE4F6E900661D50 /* Default.png */,
+				B0120E821EE4F6E900661D50 /* Default@2x.png */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+		C73283D927676F6600A20FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C73283DD27676F6700A20FE0 /* Test.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* ATAPPLaunchAnalyzeModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ATAPPLaunchAnalyzeModule_Example" */;
+			buildPhases = (
+				ECB8CD75345A7D4E6E774399 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				0CAD7E5E1EF118600080E3BD /* Embed App Extensions */,
+				0CAD7E8A1EF118BF0080E3BD /* Embed Watch Content */,
+				1F141053172F21D567E71BCE /* [CP] Embed Pods Frameworks */,
+				C73283F1276771DE00A20FE0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATAPPLaunchAnalyzeModule_Example;
+			productName = ATAPPLaunchAnalyzeModule;
+			productReference = 6003F58A195388D20070C39A /* ATAPPLaunchAnalyzeModule_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EXAT;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "何骁";
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = TKRM4J3XJV;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ATAPPLaunchAnalyzeModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C73283D927676F6600A20FE0 /* Products */;
+					ProjectRef = C73283D827676F6600A20FE0 /* Test.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* ATAPPLaunchAnalyzeModule_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C73283DD27676F6700A20FE0 /* Test.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Test.framework;
+			remoteRef = C73283DC27676F6700A20FE0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0120E871EE4F6E900661D50 /* Default@2x.png in Resources */,
+				B0120E831EE4F6E900661D50 /* Default-568h@2x.png in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				B0120E951EE6527600661D50 /* Main.storyboard in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				B0120E861EE4F6E900661D50 /* Default.png in Resources */,
+				B0120E841EE4F6E900661D50 /* Default-667h@2x.png in Resources */,
+				B0120E851EE4F6E900661D50 /* Default-736h@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F141053172F21D567E71BCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ATAPPLaunchAnalyzeModule_Example/Pods-ATAPPLaunchAnalyzeModule_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECB8CD75345A7D4E6E774399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ATAPPLaunchAnalyzeModule_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F59E195388D20070C39A /* AppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* EXATViewController.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CAD7F111EF11D8C0080E3BD /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		0CAD7F121EF11D8C0080E3BD /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D034F7035C27340DAD5DEEA4 /* Pods-ATAPPLaunchAnalyzeModule_Example.adhoc.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = $CODE_SIGN_XCFG;
+				DEVELOPMENT_TEAM = $TEAM_NUMBER_XCFG;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-Prefix.pch";
+				INFOPLIST_FILE = "ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.360buy.jdmobileskexxxx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = $PROFILE_XCFG;
+				PROVISIONING_PROFILE_SPECIFIER = $PROFILE_XCFG;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Adhoc;
+		};
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BA6FA07BD2A2C3D81512A9 /* Pods-ATAPPLaunchAnalyzeModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = TKRM4J3XJV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-Prefix.pch";
+				INFOPLIST_FILE = "ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxq.weather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = $PROFILE_XCFG;
+				PROVISIONING_PROFILE_SPECIFIER = JingxiDev_13;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20101C45396868BDFE7E98DF /* Pods-ATAPPLaunchAnalyzeModule_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TKRM4J3XJV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-Prefix.pch";
+				INFOPLIST_FILE = "ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.360buy.jdmobileskexxxx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = $PROFILE_XCFG;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ATAPPLaunchAnalyzeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+				0CAD7F111EF11D8C0080E3BD /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ATAPPLaunchAnalyzeModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+				0CAD7F121EF11D8C0080E3BD /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

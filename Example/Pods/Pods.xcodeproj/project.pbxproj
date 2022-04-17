@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEF62530A981F0040629645025D92DB /* PGXDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F91C3B371B59287292ED7AD6C0D2C0FC /* PGXDatabase.m */; };
+		1F53955257D41BA056A4E49EB31C0D40 /* NSObject+LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B38CB202E46E2A20E313DBEE989006D /* NSObject+LKDBHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		20C2E7CBD7A345E15FD3A93273B034FF /* PGTraceItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C71E4FD8F1AB19879DCDC7013F9894 /* PGTraceItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		211BCD255E63FCD64EFDEA7334A5891D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71621C3CA5EF1E61DD6AEB9E69D07E11 /* Foundation.framework */; };
+		2EC7C3D2D310A15C887C02974E5702EF /* ATAPPLaunchAnalyzeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BD02F80B0025442D4C0A48D7473DA19 /* ATAPPLaunchAnalyzeModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3963D12CF5A7FC1CB909A77D5BFB4444 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 17819310DCC845E900511333B9DAC581 /* fishhook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3DAF02CC9BF58AE843A2AF3F95094263 /* LKDB+Mapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 14100682EFF2B9A348FEB88110D8D1C2 /* LKDB+Mapping.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40BD43AC51E4DA5CB4131378D03EF363 /* PGXDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7651EC48DA19AC993FC4FDBBCE3D22 /* PGXDatabase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40E2A8033B32C63008866E42504EAE6B /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 530FF11CBE8519CA8B7C931C29833092 /* YYClassInfo.m */; };
+		4106BA7166D270E7033717BF7AFA1C5F /* PGXDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 780E3F611E1FE072E0C7B65698DDF676 /* PGXDatabaseAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43D619DA57E63DBA8BF705DAF7EA2F5A /* NSObject+LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E8335B1208E145FB728088B7A675C462 /* NSObject+LKDBHelper.m */; };
+		46187763EF9902A2B0FF34A61F9C0E5B /* hookObjcMsgSend-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = 2EEFDB509D134634F946684C0C908F91 /* hookObjcMsgSend-arm64.s */; };
+		4A39B7D01AE411DA846414DF98EDA3D8 /* PGMeasureDesc.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0583E2FA034EE50665B378E69231C894 /* PGMeasureDesc.mm */; };
+		4CA74A4849C80FED64E9BDA839283F3F /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDA54017BDF9503A672213FCE86450A /* NSObject+YYModel.m */; };
+		4D24F0A9B57234AE314D2F97E72F6D5F /* PGMsgTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC3701C43A2BBF642D11BB8918F888A /* PGMsgTrace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		603610584E9EF966E30FBD8825E8A951 /* LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 666490F256AABEF8D2633264C856C95E /* LKDBHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66F3D3B30C9A3B4AF4137C7A68599E07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA89724E0330906616DD980DE7CB9A96 /* UIKit.framework */; };
+		69A3553D96D3B5ABA0ED38C99B691A86 /* LKDBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = AD097E1CA34FCBC9AF450838A423DC66 /* LKDBUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69DEAD557F1434852A77E4CF05B0815D /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 891E6A4821A822BB5DB42AEB9752C448 /* fishhook.c */; };
+		6C79EA40B5CA685AF9724481FFEC7501 /* PGMeasure.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF1F05E9135EC3A633C1239E980F4CD /* PGMeasure.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		755A6888DCF7FA7FF342AE1224FF6030 /* Pods-ATAPPLaunchAnalyzeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FF6C17A7B2E88886DD159E756EDAA7 /* Pods-ATAPPLaunchAnalyzeModule_Example-dummy.m */; };
+		7697B61B0CC01B12C96EB061E8FE6B0A /* PGMeasure.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D97F7DBE3C7170CFAF585C42908475 /* PGMeasure.m */; };
+		7726E73F79B494190AC1577D7834FF1D /* PGTraceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 814A9CE0B84B8B56E5FB5552C68B9EA0 /* PGTraceItem.m */; };
+		7D21DA4364A6FBD08754A1A6AAFD5CDF /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5F149454A315EB5EF6296ECD4228C7 /* YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8635CD056DDBF15F4DE1BE5D17DA9AD2 /* PGXDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 414524736F19EEED018FFBBF9BAE107F /* PGXDatabaseQueue.m */; };
+		887D7DA30FAED7C74D75677EEEA3958B /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 808680C514B5D39EE15BB1A6E91219B4 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CB0C0B6DADFA98A855207C85746450F /* ATAPPLaunchAnalyzeModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3154251269809CF892E99605755735 /* ATAPPLaunchAnalyzeModule-dummy.m */; };
+		8D3D85D1C0CAF960B93A4C8DCA672469 /* ATAspects.h in Headers */ = {isa = PBXBuildFile; fileRef = F76CB73E0B3E026B9A421B5773DC138B /* ATAspects.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8DFFAA6282DE7A49BF67361B7425CFA4 /* PGXResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CC6C7A4B89C73E8844C0723F0C803E7 /* PGXResultSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F965215C5C5CA9B5534D9627946176A /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 78870CE3B82C66873A2D9170CFFB1A0C /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A3A0E05F82B506F07BDBD125F7B3FE0E /* ATAPPLaunchAnalyzeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7E5D1140B77904D36360AA4DFF73D /* ATAPPLaunchAnalyzeModule.m */; };
+		A80A0B076BB9579A30F1DFC93A535527 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53ED7FCCC519B8CC09875F0A6CA33FF /* Security.framework */; };
+		A9C3FDB1D50CBAA2657D5C66CA8FE533 /* PGLoad.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7D96F8AEF34926824ABB5D84FCAAB611 /* PGLoad.mm */; };
+		AEFA8FA47465881F672885C8701214BB /* ATAspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 950EB9FA5B6CEAAD949FC6F15FB2A63F /* ATAspects.m */; };
+		AF97C05259130B0BF248661B81EDE122 /* Pods-ATAPPLaunchAnalyzeModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B36EB19831D4B447615B905D14A71373 /* Pods-ATAPPLaunchAnalyzeModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1735DF9756C19C99DA55F496C7DF00F /* LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B9C8EEB61123598EFAA5C4D08C90FA /* LKDBHelper.m */; };
+		B372DB3C3179B803E66C6897C1DCF0C2 /* LKDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAA0C28D337CD30986460965F14BD2E /* LKDBUtils.m */; };
+		B5F268EEA7D8E16EA235255AB73113E0 /* PGXDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DCBB11080961F456A846F350179DFA /* PGXDatabaseQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B615367D9FCDA6FD5EC1ABE21F719FF3 /* PGMsgTraceCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E701E1008ADC31846A354EE8A09D0E9 /* PGMsgTraceCore.cpp */; };
+		B897C401A730DBFD235D8E1575B77A21 /* ATAPPLaunchAnalyzeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F577107535FCAE4F29D76EE9D7FA4F6 /* ATAPPLaunchAnalyzeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98D401C8E226E527019EA2AE42984E8 /* PGXDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D9ED19B6E1B8378BBA9A07BC121289 /* PGXDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF00BCF53D97EF0A4DDFE0314DB5D3BE /* NSObject+LKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A04371B8372BB9091428655AA16B85F /* NSObject+LKModel.m */; };
+		C3FF7B242E4DF1B07AF6DFD2AE899405 /* LKDB+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = EE52FE417027F7157D84068D18AEC194 /* LKDB+Mapping.m */; };
+		C67594C49903F2D35C21E2414B6E7B58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38701B420CB94221A1992C79E31E8346 /* CoreGraphics.framework */; };
+		CA409618F55265478186DB14519915AC /* PGXDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 996B00C986C732837D41E3DA9E949C6C /* PGXDatabaseAdditions.m */; };
+		CAAF6A6DB5C4E551EB0C683E21F1F30A /* PGXDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C0351439F9CCDBCB30C4B8800E81B /* PGXDatabasePool.m */; };
+		CF2183DC6AFCA854E1BBFA8ED5FD77A1 /* NSObject+LKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB68B88FE06188FF9EEEAC441A879A0 /* NSObject+LKModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0EFB456F24268F060367B734064FF0E /* PGMsgTrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = 81AF1F02E276B7561E15E504B8CDA822 /* PGMsgTrace.mm */; };
+		DC7E4F2EB48D9261664FF3B77E081397 /* PGXResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 11370F6A1AF9F1F123D991BFBB298D0E /* PGXResultSet.m */; };
+		DE1B23316C5FDF2994F11C55FBE144FA /* PGXDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C72011F2A04D5E3C2CD98CD82A867DA /* PGXDatabasePool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E486B50B33CEF543480FB568869825B1 /* PGMsgTraceCore.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D1B70A5E6D955AFB9A169F217FFE880B /* PGMsgTraceCore.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF3E1169945D2262643E426FFB2305AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71621C3CA5EF1E61DD6AEB9E69D07E11 /* Foundation.framework */; };
+		F587A84540EC347A192B709BD1E641C1 /* PGLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F01F483B60138734C5714E5DA5CE2DE /* PGLoad.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6CF5BD07813178CF5841BACBF791C0A /* PGMeasureDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE37498ED8D9D3EC1F850DF22EB524B /* PGMeasureDesc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7C288E5E51DA69DDEE74E29D08558CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A5C4B0C7BE8F9573F67B3BFC5AA4D8;
+			remoteInfo = ATAPPLaunchAnalyzeModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0583E2FA034EE50665B378E69231C894 /* PGMeasureDesc.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = PGMeasureDesc.mm; sourceTree = "<group>"; };
+		088FF1E2FEC277FE0B819C13C385A86A /* ATAPPLaunchAnalyzeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAPPLaunchAnalyzeModule.xcconfig; sourceTree = "<group>"; };
+		11370F6A1AF9F1F123D991BFBB298D0E /* PGXResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PGXResultSet.m; sourceTree = "<group>"; };
+		13D9ED19B6E1B8378BBA9A07BC121289 /* PGXDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PGXDB.h; sourceTree = "<group>"; };
+		14100682EFF2B9A348FEB88110D8D1C2 /* LKDB+Mapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKDB+Mapping.h"; sourceTree = "<group>"; };
+		17819310DCC845E900511333B9DAC581 /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		1B38CB202E46E2A20E313DBEE989006D /* NSObject+LKDBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+LKDBHelper.h"; sourceTree = "<group>"; };
+		1CAC0CDFDEAA5523D59B1CC1DC1E5659 /* Pods-ATAPPLaunchAnalyzeModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATAPPLaunchAnalyzeModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E701E1008ADC31846A354EE8A09D0E9 /* PGMsgTraceCore.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = PGMsgTraceCore.cpp; sourceTree = "<group>"; };
+		2EEFDB509D134634F946684C0C908F91 /* hookObjcMsgSend-arm64.s */ = {isa = PBXFileReference; includeInIndex = 1; path = "hookObjcMsgSend-arm64.s"; sourceTree = "<group>"; };
+		36E9038D89E2A1CE1970FFF2F8C513B0 /* Pods-ATAPPLaunchAnalyzeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAPPLaunchAnalyzeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		38701B420CB94221A1992C79E31E8346 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3B4BC676E2A85B4B705B4756048C9F66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3BE37498ED8D9D3EC1F850DF22EB524B /* PGMeasureDesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PGMeasureDesc.h; sourceTree = "<group>"; };
+		3D25D9C0906912DD5B399268DA7D185C /* ATAPPLaunchAnalyzeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ATAPPLaunchAnalyzeModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3EB68B88FE06188FF9EEEAC441A879A0 /* NSObject+LKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+LKModel.h"; sourceTree = "<group>"; };
+		414524736F19EEED018FFBBF9BAE107F /* PGXDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PGXDatabaseQueue.m; sourceTree = "<group>"; };
+		4DF1F05E9135EC3A633C1239E980F4CD /* PGMeasure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PGMeasure.h; sourceTree = "<group>"; };
+		530FF11CBE8519CA8B7C931C29833092 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		54D97F7DBE3C7170CFAF585C42908475 /* PGMeasure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PGMeasure.m; sourceTree = "<group>"; };
+		5A04371B8372BB9091428655AA16B85F /* NSObject+LKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LKModel.m"; sourceTree = "<group>"; };
+		5B7166A195D060399179600A64DFB1F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5B7651EC48DA19AC993FC4FDBBCE3D22 /* PGXDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PGXDatabase.h; sourceTree = "<group>"; };
+		631C0351439F9CCDBCB30C4B8800E81B /* PGXDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PGXDatabasePool.m; sourceTree = "<group>"; };
+		666490F256AABEF8D2633264C856C95E /* LKDBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LKDBHelper.h; sourceTree = "<group>"; };
+		6C72011F2A04D5E3C2CD98CD82A867DA /* PGXDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PGXDatabasePool.h; sourceTree = "<group>"; };
+		6F4D6B6ECDC39A65097D6EB754FD0B1A /* Pods-ATAPPLaunchAnalyzeModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAPPLaunchAnalyzeModule_Example-Info.plist"; sourceTree = "<group>"; };
+		71621C3CA5EF1E61DD6AEB9E69D07E11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		780E3F611E1FE072E0C7B65698DDF676 /* PGXDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PGXDatabaseAdditions.h; sourceTree = "<group>"; };
+		78870CE3B82C66873A2D9170CFFB1A0C /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		79D4C680AAF6F230D7F6A4EAA380454A /* ATAPPLaunchAnalyzeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATAPPLaunchAnalyzeModule-prefix.pch"; sourceTree = "<group>"; };
+		7C5F149454A315EB5EF6296ECD4228C7 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		7D77A02818F6494DAEB6D4ECF64CA6E5 /* Pods-ATAPPLaunchAnalyzeModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAPPLaunchAnalyzeModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D96F8AEF34926824ABB5D84FCAAB611 /* PGLoad.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = PGLoad.mm; sourceTree = "<group>"; };
+		7F01F483B60138734C5714E5DA5CE2DE /* PGLoad.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PGLoad.h; sourceTree = "<group>"; };
+		7F577107535FCAE4F29D76EE9D7FA4F6 /* ATAPPLaunchAnalyzeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATAPPLaunchAnalyzeModule-umbrella.h"; sourceTree = "<group>"; };
+		805E2B29675C6F4F32B06E455808E959 /* Pods-ATAPPLaunchAnalyzeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATAPPLaunchAnalyzeModule_Example.modulemap"; sourceTree = "<group>"; };
+		808680C514B5D39EE15BB1A6E91219B4 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		814A9CE0B84B8B56E5FB5552C68B9EA0 /* PGTraceItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGTraceItem.m; path = ATAPPLaunchAnalyzeModule/Classes/PGTraceItem.m; sourceTree = "<group>"; };
+		81AF1F02E276B7561E15E504B8CDA822 /* PGMsgTrace.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = PGMsgTrace.mm; sourceTree = "<group>"; };
+		84E7E5D1140B77904D36360AA4DFF73D /* ATAPPLaunchAnalyzeModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ATAPPLaunchAnalyzeModule.m; path = ATAPPLaunchAnalyzeModule/Classes/ATAPPLaunchAnalyzeModule.m; sourceTree = "<group>"; };
+		891E6A4821A822BB5DB42AEB9752C448 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; path = fishhook.c; sourceTree = "<group>"; };
+		911B32C415C6F9ECDA1AB9EFD40122FF /* Pods-ATAPPLaunchAnalyzeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAPPLaunchAnalyzeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		91C71E4FD8F1AB19879DCDC7013F9894 /* PGTraceItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGTraceItem.h; path = ATAPPLaunchAnalyzeModule/Classes/PGTraceItem.h; sourceTree = "<group>"; };
+		950EB9FA5B6CEAAD949FC6F15FB2A63F /* ATAspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ATAspects.m; sourceTree = "<group>"; };
+		98F77F9F78AF6935ABC31AD1A5444DCB /* ATAPPLaunchAnalyzeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATAPPLaunchAnalyzeModule.modulemap; sourceTree = "<group>"; };
+		996B00C986C732837D41E3DA9E949C6C /* PGXDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PGXDatabaseAdditions.m; sourceTree = "<group>"; };
+		9BD02F80B0025442D4C0A48D7473DA19 /* ATAPPLaunchAnalyzeModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATAPPLaunchAnalyzeModule.h; path = ATAPPLaunchAnalyzeModule/Classes/ATAPPLaunchAnalyzeModule.h; sourceTree = "<group>"; };
+		9CC6C7A4B89C73E8844C0723F0C803E7 /* PGXResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PGXResultSet.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A53ED7FCCC519B8CC09875F0A6CA33FF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		A5B9C8EEB61123598EFAA5C4D08C90FA /* LKDBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LKDBHelper.m; sourceTree = "<group>"; };
+		AD097E1CA34FCBC9AF450838A423DC66 /* LKDBUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LKDBUtils.h; sourceTree = "<group>"; };
+		B13517AE11E237DD8FAFB7B41EEECDB6 /* ATAPPLaunchAnalyzeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ATAPPLaunchAnalyzeModule.framework; path = ATAPPLaunchAnalyzeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36EB19831D4B447615B905D14A71373 /* Pods-ATAPPLaunchAnalyzeModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATAPPLaunchAnalyzeModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		B51374FFD4D9043AB443DB4B3C5CD1D9 /* Pods_ATAPPLaunchAnalyzeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ATAPPLaunchAnalyzeModule_Example.framework; path = "Pods-ATAPPLaunchAnalyzeModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B80C074BB909EF62B44291BC6BB81B07 /* Pods-ATAPPLaunchAnalyzeModule_Example.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAPPLaunchAnalyzeModule_Example.adhoc.xcconfig"; sourceTree = "<group>"; };
+		BBC3701C43A2BBF642D11BB8918F888A /* PGMsgTrace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PGMsgTrace.h; sourceTree = "<group>"; };
+		D1B70A5E6D955AFB9A169F217FFE880B /* PGMsgTraceCore.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = PGMsgTraceCore.hpp; sourceTree = "<group>"; };
+		D1DCBB11080961F456A846F350179DFA /* PGXDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PGXDatabaseQueue.h; sourceTree = "<group>"; };
+		E8335B1208E145FB728088B7A675C462 /* NSObject+LKDBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LKDBHelper.m"; sourceTree = "<group>"; };
+		EA89724E0330906616DD980DE7CB9A96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE52FE417027F7157D84068D18AEC194 /* LKDB+Mapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKDB+Mapping.m"; sourceTree = "<group>"; };
+		EEAA0C28D337CD30986460965F14BD2E /* LKDBUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LKDBUtils.m; sourceTree = "<group>"; };
+		F3FF6C17A7B2E88886DD159E756EDAA7 /* Pods-ATAPPLaunchAnalyzeModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATAPPLaunchAnalyzeModule_Example-dummy.m"; sourceTree = "<group>"; };
+		F76CB73E0B3E026B9A421B5773DC138B /* ATAspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ATAspects.h; sourceTree = "<group>"; };
+		F7DC294618E9028CA0584898CDCC6991 /* ATAPPLaunchAnalyzeModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATAPPLaunchAnalyzeModule-Info.plist"; sourceTree = "<group>"; };
+		F80B397A888FAC1AAF6FAA739BC31F51 /* Pods-ATAPPLaunchAnalyzeModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATAPPLaunchAnalyzeModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F91C3B371B59287292ED7AD6C0D2C0FC /* PGXDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PGXDatabase.m; sourceTree = "<group>"; };
+		FC3154251269809CF892E99605755735 /* ATAPPLaunchAnalyzeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATAPPLaunchAnalyzeModule-dummy.m"; sourceTree = "<group>"; };
+		FEDA54017BDF9503A672213FCE86450A /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49ACA9616EDC552FDF9ED16F5AA0ACC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67594C49903F2D35C21E2414B6E7B58 /* CoreGraphics.framework in Frameworks */,
+				EF3E1169945D2262643E426FFB2305AC /* Foundation.framework in Frameworks */,
+				A80A0B076BB9579A30F1DFC93A535527 /* Security.framework in Frameworks */,
+				66F3D3B30C9A3B4AF4137C7A68599E07 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6273F0F85568504740265459AA1DAD97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211BCD255E63FCD64EFDEA7334A5891D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB4070F154E7DF0206B04044B363EC4 /* ATAPPLaunchAnalyzeModule */ = {
+			isa = PBXGroup;
+			children = (
+				9BD02F80B0025442D4C0A48D7473DA19 /* ATAPPLaunchAnalyzeModule.h */,
+				84E7E5D1140B77904D36360AA4DFF73D /* ATAPPLaunchAnalyzeModule.m */,
+				91C71E4FD8F1AB19879DCDC7013F9894 /* PGTraceItem.h */,
+				814A9CE0B84B8B56E5FB5552C68B9EA0 /* PGTraceItem.m */,
+				E185B48FC206E835CD812D5CA9F5EA19 /* PGMeasureKit */,
+				946311B09CB1A531783B1849292C02DF /* Pod */,
+				5B40B469A53901390637EB85992AD023 /* Support Files */,
+			);
+			name = ATAPPLaunchAnalyzeModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2B3446AD074B9D4DAC5AB17418886403 /* PGMeasure */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1F05E9135EC3A633C1239E980F4CD /* PGMeasure.h */,
+				54D97F7DBE3C7170CFAF585C42908475 /* PGMeasure.m */,
+			);
+			name = PGMeasure;
+			path = PGMeasure;
+			sourceTree = "<group>";
+		};
+		4FF8B3609834BB2B8564AF770CB7512D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B019EAF2B539AE8A677ACFD8D5DFBFD2 /* Pods-ATAPPLaunchAnalyzeModule_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5B40B469A53901390637EB85992AD023 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98F77F9F78AF6935ABC31AD1A5444DCB /* ATAPPLaunchAnalyzeModule.modulemap */,
+				088FF1E2FEC277FE0B819C13C385A86A /* ATAPPLaunchAnalyzeModule.xcconfig */,
+				FC3154251269809CF892E99605755735 /* ATAPPLaunchAnalyzeModule-dummy.m */,
+				F7DC294618E9028CA0584898CDCC6991 /* ATAPPLaunchAnalyzeModule-Info.plist */,
+				79D4C680AAF6F230D7F6A4EAA380454A /* ATAPPLaunchAnalyzeModule-prefix.pch */,
+				7F577107535FCAE4F29D76EE9D7FA4F6 /* ATAPPLaunchAnalyzeModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ATAPPLaunchAnalyzeModule";
+			sourceTree = "<group>";
+		};
+		6EB6B528FA29E7374FE209A5542A1D07 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				5B7651EC48DA19AC993FC4FDBBCE3D22 /* PGXDatabase.h */,
+				F91C3B371B59287292ED7AD6C0D2C0FC /* PGXDatabase.m */,
+				780E3F611E1FE072E0C7B65698DDF676 /* PGXDatabaseAdditions.h */,
+				996B00C986C732837D41E3DA9E949C6C /* PGXDatabaseAdditions.m */,
+				6C72011F2A04D5E3C2CD98CD82A867DA /* PGXDatabasePool.h */,
+				631C0351439F9CCDBCB30C4B8800E81B /* PGXDatabasePool.m */,
+				D1DCBB11080961F456A846F350179DFA /* PGXDatabaseQueue.h */,
+				414524736F19EEED018FFBBF9BAE107F /* PGXDatabaseQueue.m */,
+				13D9ED19B6E1B8378BBA9A07BC121289 /* PGXDB.h */,
+				9CC6C7A4B89C73E8844C0723F0C803E7 /* PGXResultSet.h */,
+				11370F6A1AF9F1F123D991BFBB298D0E /* PGXResultSet.m */,
+			);
+			name = fmdb;
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		748B3E81CE06B45BA526632E6D9EBCD9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				14100682EFF2B9A348FEB88110D8D1C2 /* LKDB+Mapping.h */,
+				EE52FE417027F7157D84068D18AEC194 /* LKDB+Mapping.m */,
+				666490F256AABEF8D2633264C856C95E /* LKDBHelper.h */,
+				A5B9C8EEB61123598EFAA5C4D08C90FA /* LKDBHelper.m */,
+				AD097E1CA34FCBC9AF450838A423DC66 /* LKDBUtils.h */,
+				EEAA0C28D337CD30986460965F14BD2E /* LKDBUtils.m */,
+				1B38CB202E46E2A20E313DBEE989006D /* NSObject+LKDBHelper.h */,
+				E8335B1208E145FB728088B7A675C462 /* NSObject+LKDBHelper.m */,
+				3EB68B88FE06188FF9EEEAC441A879A0 /* NSObject+LKModel.h */,
+				5A04371B8372BB9091428655AA16B85F /* NSObject+LKModel.m */,
+			);
+			name = Helper;
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7DD94993356582DB5F36BC53F7BD98AD /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				F76CB73E0B3E026B9A421B5773DC138B /* ATAspects.h */,
+				950EB9FA5B6CEAAD949FC6F15FB2A63F /* ATAspects.m */,
+			);
+			name = Aspects;
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		8827CDB765274DC5F7E6CA5FB1E9A54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B13517AE11E237DD8FAFB7B41EEECDB6 /* ATAPPLaunchAnalyzeModule.framework */,
+				B51374FFD4D9043AB443DB4B3C5CD1D9 /* Pods_ATAPPLaunchAnalyzeModule_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		946311B09CB1A531783B1849292C02DF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3D25D9C0906912DD5B399268DA7D185C /* ATAPPLaunchAnalyzeModule.podspec */,
+				5B7166A195D060399179600A64DFB1F2 /* LICENSE */,
+				3B4BC676E2A85B4B705B4756048C9F66 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AF0BFADE89BF357B9FB5781969D54E4A /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				891E6A4821A822BB5DB42AEB9752C448 /* fishhook.c */,
+				17819310DCC845E900511333B9DAC581 /* fishhook.h */,
+			);
+			name = fishhook;
+			path = fishhook;
+			sourceTree = "<group>";
+		};
+		B019EAF2B539AE8A677ACFD8D5DFBFD2 /* Pods-ATAPPLaunchAnalyzeModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				805E2B29675C6F4F32B06E455808E959 /* Pods-ATAPPLaunchAnalyzeModule_Example.modulemap */,
+				1CAC0CDFDEAA5523D59B1CC1DC1E5659 /* Pods-ATAPPLaunchAnalyzeModule_Example-acknowledgements.markdown */,
+				7D77A02818F6494DAEB6D4ECF64CA6E5 /* Pods-ATAPPLaunchAnalyzeModule_Example-acknowledgements.plist */,
+				F3FF6C17A7B2E88886DD159E756EDAA7 /* Pods-ATAPPLaunchAnalyzeModule_Example-dummy.m */,
+				F80B397A888FAC1AAF6FAA739BC31F51 /* Pods-ATAPPLaunchAnalyzeModule_Example-frameworks.sh */,
+				6F4D6B6ECDC39A65097D6EB754FD0B1A /* Pods-ATAPPLaunchAnalyzeModule_Example-Info.plist */,
+				B36EB19831D4B447615B905D14A71373 /* Pods-ATAPPLaunchAnalyzeModule_Example-umbrella.h */,
+				B80C074BB909EF62B44291BC6BB81B07 /* Pods-ATAPPLaunchAnalyzeModule_Example.adhoc.xcconfig */,
+				911B32C415C6F9ECDA1AB9EFD40122FF /* Pods-ATAPPLaunchAnalyzeModule_Example.debug.xcconfig */,
+				36E9038D89E2A1CE1970FFF2F8C513B0 /* Pods-ATAPPLaunchAnalyzeModule_Example.release.xcconfig */,
+			);
+			name = "Pods-ATAPPLaunchAnalyzeModule_Example";
+			path = "Target Support Files/Pods-ATAPPLaunchAnalyzeModule_Example";
+			sourceTree = "<group>";
+		};
+		B39392DA12F877CC73CF4B567E4115CA /* Desc */ = {
+			isa = PBXGroup;
+			children = (
+				3BE37498ED8D9D3EC1F850DF22EB524B /* PGMeasureDesc.h */,
+				0583E2FA034EE50665B378E69231C894 /* PGMeasureDesc.mm */,
+			);
+			name = Desc;
+			path = Desc;
+			sourceTree = "<group>";
+		};
+		B5E19122B3D9927C1F7E12427496B2B1 /* LKDBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6EB6B528FA29E7374FE209A5542A1D07 /* fmdb */,
+				748B3E81CE06B45BA526632E6D9EBCD9 /* Helper */,
+			);
+			name = LKDBHelper;
+			path = LKDBHelper;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C78F337F735443EF9DB5DE2FD8545304 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C78F337F735443EF9DB5DE2FD8545304 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				38701B420CB94221A1992C79E31E8346 /* CoreGraphics.framework */,
+				71621C3CA5EF1E61DD6AEB9E69D07E11 /* Foundation.framework */,
+				A53ED7FCCC519B8CC09875F0A6CA33FF /* Security.framework */,
+				EA89724E0330906616DD980DE7CB9A96 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA0FA0EBF81C0AD2A20D2CEA1CB08232 /* MSGTrace */ = {
+			isa = PBXGroup;
+			children = (
+				2EEFDB509D134634F946684C0C908F91 /* hookObjcMsgSend-arm64.s */,
+				BBC3701C43A2BBF642D11BB8918F888A /* PGMsgTrace.h */,
+				81AF1F02E276B7561E15E504B8CDA822 /* PGMsgTrace.mm */,
+				2E701E1008ADC31846A354EE8A09D0E9 /* PGMsgTraceCore.cpp */,
+				D1B70A5E6D955AFB9A169F217FFE880B /* PGMsgTraceCore.hpp */,
+			);
+			name = MSGTrace;
+			path = MSGTrace;
+			sourceTree = "<group>";
+		};
+		CDD7F5980DB8A33234BBA08CA8542079 /* LoadInfo */ = {
+			isa = PBXGroup;
+			children = (
+				7F01F483B60138734C5714E5DA5CE2DE /* PGLoad.h */,
+				7D96F8AEF34926824ABB5D84FCAAB611 /* PGLoad.mm */,
+			);
+			name = LoadInfo;
+			path = LoadInfo;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D454D9CB5A90378DB4A216328156094A /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				8827CDB765274DC5F7E6CA5FB1E9A54A /* Products */,
+				4FF8B3609834BB2B8564AF770CB7512D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D454D9CB5A90378DB4A216328156094A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AB4070F154E7DF0206B04044B363EC4 /* ATAPPLaunchAnalyzeModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DF40DEBFA5DF3835234862BBFF2C3A59 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				78870CE3B82C66873A2D9170CFFB1A0C /* NSObject+YYModel.h */,
+				FEDA54017BDF9503A672213FCE86450A /* NSObject+YYModel.m */,
+				808680C514B5D39EE15BB1A6E91219B4 /* YYClassInfo.h */,
+				530FF11CBE8519CA8B7C931C29833092 /* YYClassInfo.m */,
+				7C5F149454A315EB5EF6296ECD4228C7 /* YYModel.h */,
+			);
+			name = YYModel;
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		E185B48FC206E835CD812D5CA9F5EA19 /* PGMeasureKit */ = {
+			isa = PBXGroup;
+			children = (
+				7DD94993356582DB5F36BC53F7BD98AD /* Aspects */,
+				B39392DA12F877CC73CF4B567E4115CA /* Desc */,
+				AF0BFADE89BF357B9FB5781969D54E4A /* fishhook */,
+				B5E19122B3D9927C1F7E12427496B2B1 /* LKDBHelper */,
+				CDD7F5980DB8A33234BBA08CA8542079 /* LoadInfo */,
+				CA0FA0EBF81C0AD2A20D2CEA1CB08232 /* MSGTrace */,
+				2B3446AD074B9D4DAC5AB17418886403 /* PGMeasure */,
+				DF40DEBFA5DF3835234862BBFF2C3A59 /* YYModel */,
+			);
+			name = PGMeasureKit;
+			path = ATAPPLaunchAnalyzeModule/Classes/PGMeasureKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7FAA9E2351EC862263B51918DE576297 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B897C401A730DBFD235D8E1575B77A21 /* ATAPPLaunchAnalyzeModule-umbrella.h in Headers */,
+				2EC7C3D2D310A15C887C02974E5702EF /* ATAPPLaunchAnalyzeModule.h in Headers */,
+				8D3D85D1C0CAF960B93A4C8DCA672469 /* ATAspects.h in Headers */,
+				3963D12CF5A7FC1CB909A77D5BFB4444 /* fishhook.h in Headers */,
+				3DAF02CC9BF58AE843A2AF3F95094263 /* LKDB+Mapping.h in Headers */,
+				603610584E9EF966E30FBD8825E8A951 /* LKDBHelper.h in Headers */,
+				69A3553D96D3B5ABA0ED38C99B691A86 /* LKDBUtils.h in Headers */,
+				1F53955257D41BA056A4E49EB31C0D40 /* NSObject+LKDBHelper.h in Headers */,
+				CF2183DC6AFCA854E1BBFA8ED5FD77A1 /* NSObject+LKModel.h in Headers */,
+				9F965215C5C5CA9B5534D9627946176A /* NSObject+YYModel.h in Headers */,
+				F587A84540EC347A192B709BD1E641C1 /* PGLoad.h in Headers */,
+				6C79EA40B5CA685AF9724481FFEC7501 /* PGMeasure.h in Headers */,
+				F6CF5BD07813178CF5841BACBF791C0A /* PGMeasureDesc.h in Headers */,
+				4D24F0A9B57234AE314D2F97E72F6D5F /* PGMsgTrace.h in Headers */,
+				E486B50B33CEF543480FB568869825B1 /* PGMsgTraceCore.hpp in Headers */,
+				20C2E7CBD7A345E15FD3A93273B034FF /* PGTraceItem.h in Headers */,
+				40BD43AC51E4DA5CB4131378D03EF363 /* PGXDatabase.h in Headers */,
+				4106BA7166D270E7033717BF7AFA1C5F /* PGXDatabaseAdditions.h in Headers */,
+				DE1B23316C5FDF2994F11C55FBE144FA /* PGXDatabasePool.h in Headers */,
+				B5F268EEA7D8E16EA235255AB73113E0 /* PGXDatabaseQueue.h in Headers */,
+				B98D401C8E226E527019EA2AE42984E8 /* PGXDB.h in Headers */,
+				8DFFAA6282DE7A49BF67361B7425CFA4 /* PGXResultSet.h in Headers */,
+				887D7DA30FAED7C74D75677EEEA3958B /* YYClassInfo.h in Headers */,
+				7D21DA4364A6FBD08754A1A6AAFD5CDF /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D62DCFAA4039F413C321A711EA772C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF97C05259130B0BF248661B81EDE122 /* Pods-ATAPPLaunchAnalyzeModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86161B4E0C341E27D74355C746FD3165 /* Pods-ATAPPLaunchAnalyzeModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BE8AB2E5D54B67850260CB7A16858B /* Build configuration list for PBXNativeTarget "Pods-ATAPPLaunchAnalyzeModule_Example" */;
+			buildPhases = (
+				C4D62DCFAA4039F413C321A711EA772C /* Headers */,
+				200B7B3862334B3F3DC2882DE5FF793A /* Sources */,
+				6273F0F85568504740265459AA1DAD97 /* Frameworks */,
+				E32C4A37C2549376B3FD5428766AA204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9885EA5C1C9B51749B5E1B34E939156 /* PBXTargetDependency */,
+			);
+			name = "Pods-ATAPPLaunchAnalyzeModule_Example";
+			productName = "Pods-ATAPPLaunchAnalyzeModule_Example";
+			productReference = B51374FFD4D9043AB443DB4B3C5CD1D9 /* Pods_ATAPPLaunchAnalyzeModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0A5C4B0C7BE8F9573F67B3BFC5AA4D8 /* ATAPPLaunchAnalyzeModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27EA189330098713CD07EEDA17F070F2 /* Build configuration list for PBXNativeTarget "ATAPPLaunchAnalyzeModule" */;
+			buildPhases = (
+				7FAA9E2351EC862263B51918DE576297 /* Headers */,
+				8B8B78BCF3477336C98E17B6AD6E4EE2 /* Sources */,
+				49ACA9616EDC552FDF9ED16F5AA0ACC7 /* Frameworks */,
+				52615AFD8252F076974E903C39058440 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATAPPLaunchAnalyzeModule;
+			productName = ATAPPLaunchAnalyzeModule;
+			productReference = B13517AE11E237DD8FAFB7B41EEECDB6 /* ATAPPLaunchAnalyzeModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8827CDB765274DC5F7E6CA5FB1E9A54A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0A5C4B0C7BE8F9573F67B3BFC5AA4D8 /* ATAPPLaunchAnalyzeModule */,
+				86161B4E0C341E27D74355C746FD3165 /* Pods-ATAPPLaunchAnalyzeModule_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52615AFD8252F076974E903C39058440 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32C4A37C2549376B3FD5428766AA204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		200B7B3862334B3F3DC2882DE5FF793A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755A6888DCF7FA7FF342AE1224FF6030 /* Pods-ATAPPLaunchAnalyzeModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8B78BCF3477336C98E17B6AD6E4EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB0C0B6DADFA98A855207C85746450F /* ATAPPLaunchAnalyzeModule-dummy.m in Sources */,
+				A3A0E05F82B506F07BDBD125F7B3FE0E /* ATAPPLaunchAnalyzeModule.m in Sources */,
+				AEFA8FA47465881F672885C8701214BB /* ATAspects.m in Sources */,
+				69DEAD557F1434852A77E4CF05B0815D /* fishhook.c in Sources */,
+				46187763EF9902A2B0FF34A61F9C0E5B /* hookObjcMsgSend-arm64.s in Sources */,
+				C3FF7B242E4DF1B07AF6DFD2AE899405 /* LKDB+Mapping.m in Sources */,
+				B1735DF9756C19C99DA55F496C7DF00F /* LKDBHelper.m in Sources */,
+				B372DB3C3179B803E66C6897C1DCF0C2 /* LKDBUtils.m in Sources */,
+				43D619DA57E63DBA8BF705DAF7EA2F5A /* NSObject+LKDBHelper.m in Sources */,
+				BF00BCF53D97EF0A4DDFE0314DB5D3BE /* NSObject+LKModel.m in Sources */,
+				4CA74A4849C80FED64E9BDA839283F3F /* NSObject+YYModel.m in Sources */,
+				A9C3FDB1D50CBAA2657D5C66CA8FE533 /* PGLoad.mm in Sources */,
+				7697B61B0CC01B12C96EB061E8FE6B0A /* PGMeasure.m in Sources */,
+				4A39B7D01AE411DA846414DF98EDA3D8 /* PGMeasureDesc.mm in Sources */,
+				D0EFB456F24268F060367B734064FF0E /* PGMsgTrace.mm in Sources */,
+				B615367D9FCDA6FD5EC1ABE21F719FF3 /* PGMsgTraceCore.cpp in Sources */,
+				7726E73F79B494190AC1577D7834FF1D /* PGTraceItem.m in Sources */,
+				0BEF62530A981F0040629645025D92DB /* PGXDatabase.m in Sources */,
+				CA409618F55265478186DB14519915AC /* PGXDatabaseAdditions.m in Sources */,
+				CAAF6A6DB5C4E551EB0C683E21F1F30A /* PGXDatabasePool.m in Sources */,
+				8635CD056DDBF15F4DE1BE5D17DA9AD2 /* PGXDatabaseQueue.m in Sources */,
+				DC7E4F2EB48D9261664FF3B77E081397 /* PGXResultSet.m in Sources */,
+				40E2A8033B32C63008866E42504EAE6B /* YYClassInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9885EA5C1C9B51749B5E1B34E939156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATAPPLaunchAnalyzeModule;
+			target = E0A5C4B0C7BE8F9573F67B3BFC5AA4D8 /* ATAPPLaunchAnalyzeModule */;
+			targetProxy = D7C288E5E51DA69DDEE74E29D08558CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2312ED52EF5C06B9EA7BFD0F7455B400 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088FF1E2FEC277FE0B819C13C385A86A /* ATAPPLaunchAnalyzeModule.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule.modulemap";
+				PRODUCT_MODULE_NAME = ATAPPLaunchAnalyzeModule;
+				PRODUCT_NAME = ATAPPLaunchAnalyzeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Adhoc;
+		};
+		2CAD32AF16B28445E66726CEB89D32AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2D600AD5C445DF61A22A99E91916F8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088FF1E2FEC277FE0B819C13C385A86A /* ATAPPLaunchAnalyzeModule.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule.modulemap";
+				PRODUCT_MODULE_NAME = ATAPPLaunchAnalyzeModule;
+				PRODUCT_NAME = ATAPPLaunchAnalyzeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FE472FA7C9BAD20DB0EFBC3A57E1D23 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80C074BB909EF62B44291BC6BB81B07 /* Pods-ATAPPLaunchAnalyzeModule_Example.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATAPPLaunchAnalyzeModule_Example/Pods-ATAPPLaunchAnalyzeModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATAPPLaunchAnalyzeModule_Example/Pods-ATAPPLaunchAnalyzeModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Adhoc;
+		};
+		40E15C3003A9E0221FD67CF50C6338A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E9038D89E2A1CE1970FFF2F8C513B0 /* Pods-ATAPPLaunchAnalyzeModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATAPPLaunchAnalyzeModule_Example/Pods-ATAPPLaunchAnalyzeModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATAPPLaunchAnalyzeModule_Example/Pods-ATAPPLaunchAnalyzeModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		477B0298221A7FA44C610192EC957EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6231C4B046882ED602F6B0573B2B0112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911B32C415C6F9ECDA1AB9EFD40122FF /* Pods-ATAPPLaunchAnalyzeModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATAPPLaunchAnalyzeModule_Example/Pods-ATAPPLaunchAnalyzeModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATAPPLaunchAnalyzeModule_Example/Pods-ATAPPLaunchAnalyzeModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717391D5CBE428892A6F8DAA13F99B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088FF1E2FEC277FE0B819C13C385A86A /* ATAPPLaunchAnalyzeModule.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule.modulemap";
+				PRODUCT_MODULE_NAME = ATAPPLaunchAnalyzeModule;
+				PRODUCT_NAME = ATAPPLaunchAnalyzeModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		861DCFFE5BC9A05271A192A2BBF1DC92 /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_ADHOC=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Adhoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27EA189330098713CD07EEDA17F070F2 /* Build configuration list for PBXNativeTarget "ATAPPLaunchAnalyzeModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2312ED52EF5C06B9EA7BFD0F7455B400 /* Adhoc */,
+				717391D5CBE428892A6F8DAA13F99B1A /* Debug */,
+				2D600AD5C445DF61A22A99E91916F8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				861DCFFE5BC9A05271A192A2BBF1DC92 /* Adhoc */,
+				477B0298221A7FA44C610192EC957EBE /* Debug */,
+				2CAD32AF16B28445E66726CEB89D32AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BE8AB2E5D54B67850260CB7A16858B /* Build configuration list for PBXNativeTarget "Pods-ATAPPLaunchAnalyzeModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE472FA7C9BAD20DB0EFBC3A57E1D23 /* Adhoc */,
+				6231C4B046882ED602F6B0573B2B0112 /* Debug */,
+				40E15C3003A9E0221FD67CF50C6338A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

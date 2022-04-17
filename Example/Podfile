@@ -1,0 +1,11 @@
+require 'biu'
+use_frameworks!
+source 'https://coding.jd.com/IBKFXHJingxiTest/IBKFXHJingxiTest_spec.git'
+source 'http://coding.jd.com/IBKFXHjdbase/IBKFXHjdbase_spec.git'
+install! 'cocoapods',
+  :disable_input_output_paths => true 
+setup_targets('ATAPPLaunchAnalyzeModule')
+biu_post_install('ATAPPLaunchAnalyzeModule')
+target 'ATAPPLaunchAnalyzeModule_Example' do
+  makeup_pods('ATAPPLaunchAnalyzeModule')
+end

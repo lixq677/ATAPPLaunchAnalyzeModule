@@ -1,0 +1,6 @@
+framework module Pods_ATAPPLaunchAnalyzeModule_Example {
+  umbrella header "Pods-ATAPPLaunchAnalyzeModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

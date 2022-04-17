@@ -1,0 +1,42 @@
+{
+  "name": "ATAPPLaunchAnalyzeModule",
+  "version": "1.0.17",
+  "summary": "{@spec.summary} 7722",
+  "description": "ATAPPLaunchAnalyzeModule-APP启动检测",
+  "homepage": "https://coding.jd.com/IBKFXHJingxiTest/ATAPPLaunchAnalyzeModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "何骁": "hexiao156@jd.com"
+  },
+  "source": {
+    "git": "https://coding.jd.com/IBKFXHJingxiTest/ATAPPLaunchAnalyzeModule.git",
+    "tag": "1.0.17"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "ATAPPLaunchAnalyzeModule/ATAPPLaunchAnalyzeModule-umbrella.h",
+    "ATAPPLaunchAnalyzeModule/Classes/**/*"
+  ],
+  "public_header_files": "ATAPPLaunchAnalyzeModule/Classes/ATAPPLaunchAnalyzeModule.h",
+  "resources": "ATAPPLaunchAnalyzeModule/Assets/*",
+  "libraries": [
+    "stdc++",
+    "sqlite3"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "Security",
+    "CoreGraphics"
+  ],
+  "prepare_command": "rm -rf JD_vendored_libs/contained_libs/",
+  "preserve_paths": [
+    "ATAPPLaunchAnalyzeModule/*",
+    "JD_vendored_libs/*"
+  ]
+}

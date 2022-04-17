@@ -1,0 +1,6 @@
+framework module ATAPPLaunchAnalyzeModule {
+  umbrella header "ATAPPLaunchAnalyzeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

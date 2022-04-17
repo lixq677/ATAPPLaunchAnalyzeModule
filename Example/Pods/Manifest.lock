@@ -1,0 +1,16 @@
+PODS:
+  - ATAPPLaunchAnalyzeModule (1.0.17)
+
+DEPENDENCIES:
+  - ATAPPLaunchAnalyzeModule (from `../`)
+
+EXTERNAL SOURCES:
+  ATAPPLaunchAnalyzeModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATAPPLaunchAnalyzeModule: d3f87b5b27dabe7ce1ad75575d49e54d2f0993f3
+
+PODFILE CHECKSUM: 37b0f794b8607c792374f4c35cde3d440565f43b
+
+COCOAPODS: 1.8.3
